@@ -23,7 +23,18 @@ class ViewController: UIViewController {
     }
 
     func calculerPourBoire() {
-        print(montantFactureTexfield.text!)
+    
+        switch pourboireSegmentedControl.selectedSegmentIndex {
+        case 0:
+            print("segment selectionné:\(pourboireSegmentedControl.selectedSegmentIndex)")
+        case 1:
+            print("segment selectionné:\(pourboireSegmentedControl.selectedSegmentIndex)")
+        case 2:
+            print("segment selectionné:\(pourboireSegmentedControl.selectedSegmentIndex)")
+        default:
+            print("Pas de selection")
+        }
+        
     }
 
 }
