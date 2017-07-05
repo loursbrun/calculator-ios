@@ -93,6 +93,12 @@
                             <constraint firstItem="drx-ny-T0d" firstAttribute="top" secondItem="chh-qw-buY" secondAttribute="bottom" constant="41" id="zhB-Vm-YiW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="montantFactureTexfield" destination="chh-qw-buY" id="8ao-M4-USB"/>
+                        <outlet property="montantTotalLabel" destination="jYT-cp-5TT" id="Ql1-Ls-Ho6"/>
+                        <outlet property="pourboireLabel" destination="E96-EB-K65" id="0X5-TY-GbT"/>
+                        <outlet property="pourboireSegmentedControl" destination="drx-ny-T0d" id="Nbq-CG-pnr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
